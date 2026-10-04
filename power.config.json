@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "appId": null,
+  "appDisplayName": "Hub",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "Default-cf569269-6b46-48af-a6cf-0150f0aa8b7d",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "873123ab-157f-4029-9959-910fec559715": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness",
+      "displayName": "Excel Online (Business)",
+      "dataSources": [
+        "excelonlinebusiness"
+      ],
+      "dataSets": {}
+    },
+    "ae508a05-1747-423f-aff8-23ac04488819": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "displayName": "SharePoint",
+      "dataSources": [
+        "sharepointonline"
+      ],
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {}
+}
